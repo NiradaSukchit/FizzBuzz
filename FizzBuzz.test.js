@@ -5,11 +5,11 @@ test("Write a program that prints the numbers from 1 to 100", () => {
 }) ;
 
 test(' %3 ', () => {
-    expect(FizzBuzz(3)).toBe("Fizz");
+    expect(FizzBuzz(9)).toBe("Fizz");
 });
 
 test(' %5 ', () =>{
-    expect(FizzBuzz(5)).toBe('Buzz');
+    expect(FizzBuzz(10)).toBe('Buzz');
 });
 
 test(' %3 & %5 ', () =>{
